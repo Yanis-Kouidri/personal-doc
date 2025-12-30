@@ -26,3 +26,26 @@ for f in *.jpg; do
 done
 ```
 
+## Convert HEIC into jpg
+
+### Install
+```bash
+sudo apt install imagemagick
+```
+
+> [!IMPORTANT]
+> magick must be >= 7.0.0 so Ubuntu must be at least `25.04`
+
+
+### Run
+
+For one picture
+```bash
+magick picture.HEIC picture.jpg
+```
+
+For all HEIC pictures in the currente folder
+
+```bash
+for f in *.HEIC; do magick $f ${f%.HEIC}.jpg; done
+```
