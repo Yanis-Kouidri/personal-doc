@@ -1,4 +1,4 @@
-# Raspberry PI
+# Raspberry Pi
 
 ## General
 
