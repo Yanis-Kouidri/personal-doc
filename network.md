@@ -6,6 +6,7 @@
 
 ```bash
 sudo apt install nmap
+```
 
 ### Scan
 
