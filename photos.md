@@ -1,6 +1,6 @@
 # Photo
 
-## Automatialy crop pictures from a scan
+## Automatically crop pictures from a scan
 
 ### Install
 
@@ -15,7 +15,7 @@ Download [multicrop](http://www.fmwconcepts.com/imagemagick/downloadcounter.php?
  ./multicrop -u 1 scan_pics.jpg extracted_pic.jpg
 ```
 
- It will generate `extracted_pic-000.jpg` `extracted_pic-001.jpg` ... depending of number of picture found in `scan_pics.jpg`.
+ It will generate `extracted_pic-000.jpg` `extracted_pic-001.jpg` … depending on number of pictures found in `scan_pics.jpg`.
 
  To run it on all scan in the current folder:
 
@@ -26,7 +26,7 @@ for f in *.jpg; do
 done
 ```
 
-## Convert HEIC into jpg
+## Convert HEIC into JPG
 
 ### Install
 ```bash
@@ -34,7 +34,7 @@ sudo apt install imagemagick
 ```
 
 > [!IMPORTANT]
-> magick must be >= 7.0.0 so Ubuntu must be at least `25.04`
+> `magick` must be >= 7.0.0, so Ubuntu must be at least `25.04`
 
 
 ### Run
@@ -44,7 +44,7 @@ For one picture
 magick picture.HEIC picture.jpg
 ```
 
-For all HEIC pictures in the currente folder
+For all HEIC pictures in the current folder
 
 ```bash
 for f in *.HEIC; do magick $f ${f%.HEIC}.jpg; done
