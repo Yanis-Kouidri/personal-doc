@@ -49,10 +49,30 @@ sudo ss -tunlp
 - `-l`: Listening sockets only (no established connection)
 - `-p`: Display with process is listening on that port (require `sudo`)
 
+## nmcli
 
+`nmcli` is the tool of **NetworkManager** to manage networking on a client Linux machine. On server, it's `Netplan` that is used to manage networking. While `ip` command is used to debug or to set temporary interface, `nmcli` allow creating persistent interfaces.
 
+### Wi-Fi
 
+Check Wi-Fi access points available
 
+```bash
+nmcli dev wifi
+```
 
+### General
+Show interfaces (virtual and physical)
+```bash
+nmcli device
+```
 
+Show connections
+```bash
+nmcli con show
+```
 
+Up or down a connection
+```bash
+sudo nmcli con up "MY-CON"
+```
