@@ -3,11 +3,13 @@
 ## Change hostname
 
 Change permanently with
+
 ```bash
 sudo hostnamectl set-hostname linuxconfig
 ```
 
 Check
+
 ```bash
 hostnamectl
 ```
@@ -17,6 +19,7 @@ Reboot is required to show it in the prompt
 ## Message Of The Day (MOTD)
 
 ### Add a new message
+
 ```bash
 sudo vi /etc/update-motd.d/99-custom
 ```
@@ -31,6 +34,7 @@ SOME TEXT or ASCII Art
 ```
 
 Change permissions
+
 ```bash
 sudo chmod 755 /etc/update-motd.d/99-custom
 ```
@@ -54,7 +58,7 @@ sudo apt install traceroute            # version 1:2.1.6-1
 
 ### Search using apt-file
 
-Install apt-file 
+Install apt-file
 
 ```bash
 sudo apt install apt-file
@@ -85,6 +89,7 @@ That will search all packets that contain a script named `dig`
 `-x` specify that pattern is a regex.
 
 Example output:
+
 ``` bash
 apt-file find -x /dig$
     apparmor: /etc/apparmor.d/dig
@@ -100,39 +105,47 @@ Here we can guess that to correct one is `bind9-dnsutils`
 A CLI tool to manage logs.
 
 To see all logs
+
 ```bash
 journalctl
 ```
 
 To see only 20 last logs
+
 ```bash
 journalctl -n 20
 ```
 
 To follow logs output
+
 ```bash
 journalctl -f
 ```
 
 To see kernel logs only
+
 ```bash
 journalctl -k
 ```
 
 To see specific process logs (example for ssh service)
+
 ```bash
 journalctl -u ssh.service
 ```
 
 To filter by time:
+
 ```bash
 journalctl --since "2023-10-27 10:00:00" --until "2023-10-27 11:00:00"
 ```
 
 To filter by log level:
+
 ```bash
 journalctl -p 1 -b
 ```
+
 - `-b`: To see error only until last reboot
 - `-p 1`: To see log level 1 and above
 
