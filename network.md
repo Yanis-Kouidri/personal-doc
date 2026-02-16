@@ -31,6 +31,12 @@ Scan specific ports
 nmap -p 22,80,443 192.168.1.150
 ```
 
+Detect host OS
+
+```bash
+nmap -A 192.168.1.150
+```
+
 ## SS
 
 `ss` stands for Socket Statistic. It is the up-to-date command to investigate on socket on a Linux machine. It replaces `netstat`. `ss` can be installed with `sudo apt install iproute2`.
