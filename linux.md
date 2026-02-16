@@ -161,3 +161,48 @@ There are 8 log levels, from the most critical to the most informative
 | 5 | `notice` |
 | 6 | `info` |
 | 7 | `debug` |
+
+## Misc
+
+### tldr
+
+Get useful command usage example
+
+Install
+
+```bash
+sudo snap install tldr
+```
+
+Get tar usage example:
+
+```bash
+tldr tar
+```
+
+### sudoedit
+
+To edit a root file use `sudoedit` instead of `sudu vi`.
+It allows you to still have your user `.vimrc` config.
+
+### Files and folders size
+
+Get size of a folder
+
+```bash
+du -sh a_folder/
+```
+
+Get files and folders size with a TUI
+
+Install
+
+```bash
+sudo apt install ncdu
+```
+
+Use (press q to quit)
+
+```bash
+ncdu .
+```
