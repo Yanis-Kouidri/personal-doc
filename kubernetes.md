@@ -36,3 +36,5 @@ Where:
 - `-L`: "Local port forwarding", to perform port forwarding
 - `7070`: is the local port on your machine
 - `8080`: is the port of the remote host that we open previously (only accessible in localhost so we tunneled it thanks to ssh)
+
+With this solution, no port will be open the Kubernetes server.
