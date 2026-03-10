@@ -94,7 +94,7 @@ Then you have to push the tag.
 git push origin v1.0.0
 ```
 
-### Good workflow example
+### Good tags workflow example
 
 ```bash
 git add .
@@ -113,3 +113,67 @@ git puhs origin main --follow-tags
 ```
 
 This last command will push branch and tags.
+
+## Rebase
+
+Rebasing allow you to reorganized pasted commits.
+
+### Good rebase workflow example
+
+Go to main
+
+```bash
+git switch main
+```
+
+Get last commit of main
+
+```bash
+git pull
+```
+
+Create a new branch for your feature
+
+```bash
+git switch -b feature/add-new-section
+```
+
+Code your feature and make several commits
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "wip: add something"
+```
+
+When you finish, get lasts commit of main that were created during development of your feature
+
+```bash
+git fetch origin
+```
+
+Apply your branch over the last commit of main, conflict may happend here
+
+```bash
+git rebase origin/main
+```
+
+Resolve conflicts if any then
+
+```bash
+git rebase --continue
+```
+
+Clean your commits
+
+```bash
+git rebase -i HEAD~10
+```
+
+Push the branch
+
+```bash
+git push --force-with-lease
+```
