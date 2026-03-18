@@ -1,0 +1,11 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+  - Kubernetes: kubernetes.md
+  - Git: git.md
+  - Linux: linux.md
+  - Network: network.md
+  - Photos: photos.md
+  - Raspberry-Pi: raspberry-pi.md
+  - Regex: regex.md
+  - Windows 11: windows-11.md 
