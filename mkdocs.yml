@@ -15,7 +15,6 @@ theme:
   features:
     - content.code.copy
   palette: 
-    # Palette pour le mode clair
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -24,7 +23,6 @@ theme:
         icon: material/brightness-7
         name: Switch to light mode
 
-    # Palette pour le mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
