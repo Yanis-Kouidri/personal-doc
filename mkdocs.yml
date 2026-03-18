@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Yanis Kouidri's Docs
 nav:
   - Home: index.md
   - Kubernetes: kubernetes.md
