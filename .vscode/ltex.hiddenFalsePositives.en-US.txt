@@ -1,1 +1,2 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QDownload multicrop\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwarning \"Be careful\" \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q must be >= 7.0.0, so Ubuntu must be at least \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+$"}

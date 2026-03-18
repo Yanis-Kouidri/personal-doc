@@ -34,8 +34,8 @@ done
 sudo apt install imagemagick
 ```
 
-> [!IMPORTANT]
-> `magick` must be >= 7.0.0, so Ubuntu must be at least `25.04`
+!!! warning "Be careful"
+    `magick` must be >= 7.0.0, so Ubuntu must be at least `25.04`
 
 ### Run
 
