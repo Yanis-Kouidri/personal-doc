@@ -1,4 +1,5 @@
 site_name: Yanis Kouidri's Docs
+site_url: https://yanis-kouidri.github.io/personal-doc/
 nav:
   - Home: index.md
   - Kubernetes: kubernetes.md
