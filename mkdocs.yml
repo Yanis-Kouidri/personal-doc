@@ -10,6 +10,7 @@ nav:
   - Raspberry-Pi: raspberry-pi.md
   - Regex: regex.md
   - Windows 11: windows-11.md 
+  - Bun: bun.md
 
 theme:
   name: material
