@@ -12,6 +12,7 @@ nav:
   - Windows 11: windows-11.md 
   - Bun: bun.md
   - PDF: pdf.md
+  - Python: python.md
 
 theme:
   name: material
