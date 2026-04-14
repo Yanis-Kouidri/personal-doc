@@ -1,5 +1,8 @@
 site_name: Yanis Kouidri's Docs
 site_url: https://yanis-kouidri.github.io/personal-doc/
+repo_url: https://github.com/yanis-kouidri/personal-doc
+repo_name: yanis-kouidri/personal-doc
+edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Kubernetes: kubernetes.md
@@ -17,8 +20,20 @@ nav:
 
 theme:
   name: material
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
   features:
     - content.code.copy
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.top
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -44,4 +59,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.details
   - admonition
+  - toc:
+      permalink: true
