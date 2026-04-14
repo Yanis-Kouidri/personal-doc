@@ -21,6 +21,8 @@ nav:
 theme:
   name: material
   language: en
+  logo: assets/brochure.png
+  favicon: assets/brochure.png
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
