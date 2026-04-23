@@ -5,7 +5,7 @@
 Change permanently with
 
 ```bash
-sudo hostnamectl set-hostname linuxconfig
+sudo hostnamectl set-hostname your-new-hostname
 ```
 
 Check
