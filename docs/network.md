@@ -68,17 +68,21 @@ nmcli dev wifi
 ```
 
 ### General
+
 Show interfaces (virtual and physical)
+
 ```bash
 nmcli device
 ```
 
 Show connections
+
 ```bash
 nmcli con show
 ```
 
 Up or down a connection
+
 ```bash
 sudo nmcli con up "MY-CON"
 ```
