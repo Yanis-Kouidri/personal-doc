@@ -64,7 +64,7 @@ sudo ss -tunlp
 Check Wi-Fi access points available
 
 ```bash
-nmcli dev wifi
+sudo nmcli dev wifi
 ```
 
 ### General
