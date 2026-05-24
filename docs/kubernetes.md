@@ -38,3 +38,13 @@ Where:
 - `8080`: is the port of the remote host that we open previously (only accessible in localhost so we tunneled it thanks to ssh)
 
 With this solution, no port will be open the Kubernetes server.
+
+## k3s
+
+### Remove unused images
+
+To delete from disk all images not currently used by a pod.
+
+```bash
+sudo k3s crictl rmi --prune
+```
