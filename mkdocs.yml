@@ -17,6 +17,7 @@ nav:
   - Bun: bun.md
   - PDF: pdf.md
   - Python: python.md
+  - FluxCD: fluxcd.md
 
 theme:
   name: material
