@@ -1,9 +1,9 @@
 # FluxCD
 
-To apply now what is present on the Git repo over the actual cluster for the `apps` kustomization:
+To apply now what is present on the Git repo over the actual cluster for the `flux-system` kustomization that should owns all other kustomization:
 
 ```bash
-flux reconcile kustomization apps -n flux-system
+flux reconcile kustomization flux-system -n flux-system
 ```
 
 To get the status of FluxCD
