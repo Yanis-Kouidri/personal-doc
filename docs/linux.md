@@ -21,7 +21,7 @@ Reboot is required to show it in the prompt
 ### Add a new message
 
 ```bash
-sudo vi /etc/update-motd.d/99-custom
+sudoedit /etc/update-motd.d/99-custom
 ```
 
 Write something like that:
