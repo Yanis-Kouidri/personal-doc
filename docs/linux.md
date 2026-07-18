@@ -171,7 +171,7 @@ Get useful command usage example
 Install
 
 ```bash
-sudo snap install tldr
+pipx install tldr
 ```
 
 Get tar usage example:
