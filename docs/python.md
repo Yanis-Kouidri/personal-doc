@@ -17,3 +17,9 @@ To run a tool without installing it, run
 ```bash
 uvx glances
 ```
+
+To update deps
+
+```bash
+uv sync
+```
