@@ -18,6 +18,7 @@ nav:
   - PDF: pdf.md
   - Python: python.md
   - FluxCD: fluxcd.md
+  - Curl: curl.md
 
 theme:
   name: material
